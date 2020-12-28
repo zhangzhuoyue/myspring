@@ -36,14 +36,6 @@
 
 
 
-
-
-
-
-
-
-
-
 ##后端
 * druid 的版本和mysql-connector-java的版本，如何找到他们最合适的版本。在github中找到druid，可以看到druid使用的mysql-connector-java版本
     1. 如果版本不一致，会出现连接池初始化异常
