@@ -33,7 +33,7 @@ public class TransferServiceImpl implements TransferService {
             accountDao.updateAccountByCardNo(to);
 
             //测试事务回滚
-            int c = 1/money;
+            //int c = 1/0;
             accountDao.updateAccountByCardNo(from);
 
         }catch (Exception e) {
